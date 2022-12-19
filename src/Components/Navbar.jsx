@@ -15,27 +15,27 @@ const Navbar = () => {
                     <h1 className="text-3xl font-bold sm:text-4xl  mr-4">Brand</h1>
                     <ul className="hidden md:flex">
                         <li className="hover:bg-transparent hover:text-indigo-600 rounded-md">
-                            <Link to="home" smoot h={true} duration={500}>
+                            <Link to="home" smooth={true} duration={500}>
                                 Home{" "}
                             </Link>
                         </li>
                         <li className="hover:bg-transparent hover:text-indigo-600 rounded-md">
-                            <Link to="about" smoot h={true} offset={-200} duration={500}>
+                            <Link to="about" smooth={true} offset={-200} duration={500}>
                                 About{" "}
                             </Link>
                         </li>
                         <li className="hover:bg-transparent hover:text-indigo-600 rounded-md">
-                            <Link to="support" smoot h={true} offset={-50} duration={500}>
+                            <Link to="support" smooth={true} offset={-50} duration={500}>
                                 Support{" "}
                             </Link>
                         </li>
                         <li className="hover:bg-transparent hover:text-indigo-600 rounded-md">
-                            <Link to="platforms" smoot h={true} offset={-100} duration={500}>
+                            <Link to="platforms" smooth={true} offset={-100} duration={500}>
                                 Platforms{" "}
                             </Link>
                         </li>
                         <li className="hover:bg-transparent hover:text-indigo-600 rounded-md">
-                            <Link to="pricing" smoot h={true} offset={-50} duration={500}>
+                            <Link to="pricing" smooth={true} offset={-50} duration={500}>
                                 Pricing{" "}
                             </Link>
                         </li>
@@ -55,7 +55,7 @@ const Navbar = () => {
             <div className="">
                 <ul className={!nav ? "hidden" : " absolute bg-zinc-200 w-full px-8"}>
                     <li className="border-b-2 border-zinc-300 w-full hover:bg-transparent hover:text-indigo-600 rounded-md ">
-                        <Link onClick={handelClose} to="home" smoot h={true} duration={500}>
+                        <Link onClick={handelClose} to="home" smooth={true} duration={500}>
                             Home{" "}
                         </Link>
                     </li>
@@ -64,8 +64,7 @@ const Navbar = () => {
                         <Link
                             onClick={handelClose}
                             to="about"
-                            smoot
-                            h={true}
+                            smooth={true}
                             offset={-200}
                             duration={500}
                         >
@@ -77,8 +76,7 @@ const Navbar = () => {
                         <Link
                             onClick={handelClose}
                             to="support"
-                            smoot
-                            h={true}
+                            smooth={true}
                             offset={-50}
                             duration={500}
                         >
@@ -90,8 +88,7 @@ const Navbar = () => {
                         <Link
                             onClick={handelClose}
                             to="platforms"
-                            smoot
-                            h={true}
+                            smooth={true}
                             offset={-100}
                             duration={500}
                         >
@@ -103,8 +100,7 @@ const Navbar = () => {
                         <Link
                             onClick={handelClose}
                             to="pricing"
-                            smoot
-                            h={true}
+                            smooth={true}
                             offset={-50}
                             duration={500}
                         >
